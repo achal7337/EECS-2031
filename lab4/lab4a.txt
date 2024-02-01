@@ -1,0 +1,28 @@
+lab 4
+Achal Gandhi
+achal167@my.yorku.ca
+218319111
+
+breakpoint 1
+mainA = 1
+mainB = 20000
+x= 1        
+y= 20000
+
+breakpoint 2
+mainA = No symbol "mainA" in current context.
+mainB = No symbol "mainB" in current context.
+we get this because in swap function there is x and y, mainA and mainB is not in function swap.
+
+breakpoint 3
+x = 20000
+y = 1
+x and y are swapped
+
+breakpoint 4
+mainA = 1
+mainB = 20000
+they arent swapped.
+x= No symbol "x" in current context.      
+y= No symbol "y" in current context.
+we get x and y like this because in main function there are mainA and mainB, x and y are local variable in swap function.
